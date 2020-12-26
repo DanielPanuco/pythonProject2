@@ -122,59 +122,7 @@ class User:
         self.total_cost = cost
 
 
-# if I decide to write a menu driven program
-# def menudriven():
-#     menu = {}
-#     menu['1'] = "Take Addy"
-#     menu['2'] = "Smoke Weed"
-#     menu['3'] = "Total Cost"
-#     menu['4'] = "Total times drug has been taken"
-#     menu['5'] = "Addy cost"
-#     menu['6'] = "Weed cost"
-#     menu['7'] = "Exit"
-#     menu['8'] = "Exit"
-#     menu['9'] = "Exit"
-#     menu['10'] = "Exit"
-#
-#     def print_menu():
-#         for entry in menu:
-#             print(entry, menu[entry])
-#         print('\n')
-#
-#     def addy():
-#         tmgs = input('Enter Mgs: ')
-#         mgs = int(tmgs)
-#         type = input('Enter type: ')
-#         me.take_addy(mgs, type)
-#
-#     def weed():
-#         grams = input('Enter grams: ')
-#         me.smoke_weed(grams)
-#
-#     def print_total():
-#         total_cost = me.total_cost
-#         print(total_cost, '\n')
-#
-#     def print_times():
-#         print(me.total_times(), '\n')
-#
-#     def decision(selection):
-#         if selection == '1':
-#             addy()
-#         elif selection == '2':
-#             weed()
-#         elif selection == '3':
-#             print_total()
-#         elif selection == '4':
-#             print_times()
-#         elif selection == '10':
-#             exit(0)
-#
-#     while True:
-#         print_menu()
-#         option = input('Enter option: ')
-#         decision(option)
-# creates object that holds prices for your drugs
+
 local_prices = Prices(8, 10 / 30, 5)
 
 me = User()
